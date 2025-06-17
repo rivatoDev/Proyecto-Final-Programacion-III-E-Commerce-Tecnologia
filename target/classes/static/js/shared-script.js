@@ -67,14 +67,12 @@ function clientMenu(name, lastname){
                         <span class="text-button">CARRITO</span>
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
-                        <div class="offcanvas-header justify-content-center logged">
-                                    <button type="button" class="btn-offcanvas-close" style="left: .5em;" data-bs-dismiss="offcanvas" aria-label="Close">
-                                        <i class="fa-solid fa-xmark"></i>
-                                    </button>
-                                    <h2 class="text-center m-0">CARRITO</h2>
-                                </div>
-                        <div class="offcanvas-cart-body">
-                            
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            CARRITO
                         </div>
                     </div>`;
     document.querySelector('.logged-nav').appendChild(cart);
@@ -88,7 +86,7 @@ function clientMenu(name, lastname){
                             <div class="offcanvas offcanvas-start offcanvas-profile" tabindex="-1" id="offcanvasProfileClient" aria-labelledby="offcanvasProfileClientLabel">
                                 <div class="offcanvas-header justify-content-center logged">
                                     <h2 class="text-center m-0">${name} ${lastname}</h2>
-                                    <button type="button" class="btn-offcanvas-close" style="right: .5em;" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <button type="button" class="btn-offcanvas-close" data-bs-dismiss="offcanvas" aria-label="Close">
                                         <i class="fa-solid fa-xmark"></i>
                                     </button>
                                 </div>

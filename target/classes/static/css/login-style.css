@@ -3,7 +3,6 @@
     min-width: 50vw;
     height: 65%;
     perspective: 1000px;
-
 }
 
 #login-container > *{
@@ -19,7 +18,7 @@
 /* LOGIN FRONT */
 #login-front{
     padding: 4em;
-    background: linear-gradient(to bottom, var(--background-color-1), var(--title-color-1));
+    background: linear-gradient(to top, var(--background-color-1), #62737057);
     box-shadow: 0 0 10px 5px var(--primary-color);
     transform: rotateY(0deg);
 }
@@ -74,7 +73,7 @@
     height: 2.5em;
 }
 #login-back{
-    background: linear-gradient(to bottom, var(--background-color-2), var(--background-color-3));
+    background: linear-gradient(to bottom, var(--background-color-2), #beffc400);
     box-shadow: 0 0 10px 5px var(--primary-color);
     transform: rotateY(180deg);
 }
