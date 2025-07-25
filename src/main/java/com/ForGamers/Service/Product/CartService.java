@@ -46,7 +46,7 @@ public class CartService {
             list.add(new CartProductPair(entry.getCantInCart(), entry.getProduct().getId()));
         }
         return new Cart(
-                cartEntryList.getFirst().getClient().getId(),
+                cartEntryList.get(0).getClient().getId(),
                 list
         );
     }

@@ -11,3 +11,12 @@ Los endpoints están asegurados mediante Spring según el rol de usuario, la web
 ## <ins>Documentación</ins>  
 La documentación de uso de la API se maneja mediante Swagger UI, al cual se puede acceder desde una cuenta de Admin.  
 Además contamos con la documentación de trabajo de las metodologías del proyecto: https://docs.google.com/document/d/1H66Mrk4QjvWt5vSzUUOWnkf43G5SfM5alAZSQfhED8c/edit?usp=sharing
+
+## <ins>Testing</ins>  
+Admin Credentials:  
+User: Admin  
+Password: 123  
+  
+Manager Credentials:  
+User: manager  
+password: 123  
